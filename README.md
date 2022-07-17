@@ -18,5 +18,11 @@ Below are the steps to achieve this:
     5. DB_USERNAME=database-owner-name
     6. DB_PASSWORD=database-owner-password
 
-- 
+- Now you can go ahead to run your migrations from the command line via php artisan migrate
+- You should get the output below, showing the status of each migration
+- Open your PgAdmin and confirm that the table in question has the tables migrated
+- Voila, you have successdully linked laravel with PostgreSQL
+- At this point, you can go ahead to use the database via laravel's Eloquent ORM, just like you would use MySQL with it.
+
+### Good Luck!
 

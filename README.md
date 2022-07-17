@@ -11,12 +11,12 @@ Below are the steps to achieve this:
 - Create a table in PgAdmin. I am going to be using a table called laravel-with-postgresql.
 - Update your .env file with the following details:
 
-    1. DB_CONNECTION=pgsql
-    2. DB_HOST=127.0.0.1
-    3. DB_PORT=5432
-    4. DB_DATABASE=your-database-name
-    5. DB_USERNAME=database-owner-name
-    6. DB_PASSWORD=database-owner-password
+     DB_CONNECTION=pgsql
+     DB_HOST=127.0.0.1
+     DB_PORT=5432
+     DB_DATABASE=your-database-name
+     DB_USERNAME=database-owner-name
+     DB_PASSWORD=database-owner-password
 
 - Now you can go ahead to run your migrations from the command line via php artisan migrate
 - You should get the output below, showing the status of each migration
